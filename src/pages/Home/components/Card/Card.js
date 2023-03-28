@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import { Card, Modal } from 'react-bootstrap';
-import { Link } from 'react-router-dom';
 import { Detail } from './pages';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faStar as solidStar } from '@fortawesome/free-solid-svg-icons';

@@ -22,5 +22,5 @@ const iceSlice = createSlice(
     }
 )
 
-export const IceSelector = icesEntity.getSelectors(state => state.ice);
+export const iceSelector = icesEntity.getSelectors(state => state.ice);
 export default iceSlice.reducer;

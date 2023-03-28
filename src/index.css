@@ -223,3 +223,19 @@ code {
   height: 150px;
   object-fit: cover;
 }
+
+.f-sidebar{
+  border-radius: 10% 10% 0 0;
+}
+
+.f-sidebar-primary{
+  background-color: var(--primary);
+  color: var(--secondary);
+  border-radius: inherit;
+}
+
+.f-list{
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+}

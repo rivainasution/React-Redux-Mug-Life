@@ -2,7 +2,7 @@ import React from 'react';
 import { Container } from 'react-bootstrap';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import { Navigation } from './components';
-import { Home } from './pages';
+import { Home, HotCoffee, IceCoffee } from './pages';
     
 export default function App() {
     
@@ -14,6 +14,14 @@ export default function App() {
           <Route 
             path='/'
             element={<Home />} 
+          />
+          <Route 
+            path='/hot'
+            element={<HotCoffee />} 
+          />
+          <Route 
+            path='/ice'
+            element={<IceCoffee />} 
           />
         </Routes>
       </Container>
