@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/React-Redux-Mug-Life/static/css/main.e8441ec7.css",
+    "main.js": "/React-Redux-Mug-Life/static/js/main.89715d68.js",
+    "static/media/logos.png": "/React-Redux-Mug-Life/static/media/logos.8115ee539acad98065eb.png",
+    "static/media/banner1.jpg": "/React-Redux-Mug-Life/static/media/banner1.2c75bac131978acf54da.jpg",
+    "static/media/banner2.jpg": "/React-Redux-Mug-Life/static/media/banner2.8e5c254af13705569997.jpg",
+    "static/media/banner3.jpg": "/React-Redux-Mug-Life/static/media/banner3.7b383cbd63f180334008.jpg",
+    "static/media/banner4.jpg": "/React-Redux-Mug-Life/static/media/banner4.11094c389c997119928c.jpg",
+    "static/media/banner5.jpg": "/React-Redux-Mug-Life/static/media/banner5.a30dc0766e89158fb9f5.jpg",
+    "static/media/banner6.jpg": "/React-Redux-Mug-Life/static/media/banner6.06413e895f29a4deffbf.jpg",
+    "static/media/diskon3.jpg": "/React-Redux-Mug-Life/static/media/diskon3.6540f08f2aa9ae91108a.jpg",
+    "static/media/diskon2.jpg": "/React-Redux-Mug-Life/static/media/diskon2.cd7ddfcbb8e931a9c603.jpg",
+    "static/media/diskon1.jpg": "/React-Redux-Mug-Life/static/media/diskon1.db52e7c6ff508916ba5c.jpg",
+    "static/media/slick.svg": "/React-Redux-Mug-Life/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/React-Redux-Mug-Life/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/React-Redux-Mug-Life/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/React-Redux-Mug-Life/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/React-Redux-Mug-Life/index.html",
+    "main.e8441ec7.css.map": "/React-Redux-Mug-Life/static/css/main.e8441ec7.css.map",
+    "main.89715d68.js.map": "/React-Redux-Mug-Life/static/js/main.89715d68.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e8441ec7.css",
+    "static/js/main.89715d68.js"
+  ]
+}
