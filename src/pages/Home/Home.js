@@ -81,9 +81,10 @@ const Home = () => {
 
             <div className='my-3 p-2'>
                 <span className='f-heading f-heading3'>Produk Pilihan</span>
+            
                 <Row>
                     {hot.map(item=>(
-                        <Col lg={2} md={3} sm={4} xs={6} key={item.id} className='my-3'>
+                        <Col lg={2} md={3} sm={4} xs={6} key={item.id} className='my-3 f-card'>
                             <ProductCard
                                 data={item}
                                 originalPrice={50}

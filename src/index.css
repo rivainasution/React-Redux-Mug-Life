@@ -212,6 +212,7 @@ code {
 
 .f-card{
   text-decoration: none;
+  padding:0px !important;
 }
 
 .f-card-background{
