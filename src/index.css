@@ -42,6 +42,10 @@ code {
   cursor: pointer;
 }
 
+.f-link{
+  text-decoration: none;
+}
+
 .f-brand:hover{
   color: var(--secondary) !important ;
 }

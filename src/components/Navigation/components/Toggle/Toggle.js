@@ -37,13 +37,15 @@ export default function Toggle () {
                     </Dropdown.Item>
                 </Dropdown.Menu>
             </Dropdown>
-            <Navbar.Brand className='f-brand'>
-                <Image 
-                    src={logo} 
-                    alt='Mug Life' 
-                    width='30' 
-                />
-                <span className="mx-2">Mug Life</span>
+            <Navbar.Brand>
+                <Link to='/' className='f-link'>
+                    <Image 
+                        src={logo} 
+                        alt='Mug Life' 
+                        width='30' 
+                    />
+                    <span className="mx-2 f-brand">Mug Life</span>
+                </Link>
             </Navbar.Brand>
         </div>
     );

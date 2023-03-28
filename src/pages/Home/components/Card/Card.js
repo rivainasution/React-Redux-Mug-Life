@@ -34,8 +34,9 @@ const ProductCard = ({ data, originalPrice, salePrice, rating, discount, sale })
   }
 
   return (
-    <div>
-      <Card className="shadow p-2" onClick={handleShow}>
+    <div className='border border-warning'>
+      <h1>Test</h1>
+      {/* <Card className="shadow p-2" onClick={handleShow}>
         <div className="position-relative">
           <Card.Img variant="top" src={data.image} className="zoomable-img f-card-image" />
           <div className="position-absolute top-0 end-0 p-2 bg-danger text-white rounded-start">{discount}% OFF</div>
@@ -55,7 +56,7 @@ const ProductCard = ({ data, originalPrice, salePrice, rating, discount, sale })
                 </span>
             </div>
           </div>
-      </Card>
+      </Card> */}
       <Modal show={show} onHide={handleClose}>
         <Detail
           data={data} 
