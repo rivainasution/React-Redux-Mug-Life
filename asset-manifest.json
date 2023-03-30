@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/React-Redux-Mug-Life/static/css/main.e3638f55.css",
-    "main.js": "/React-Redux-Mug-Life/static/js/main.4bcf85aa.js",
+    "main.css": "/React-Redux-Mug-Life/static/css/main.ca82cb32.css",
+    "main.js": "/React-Redux-Mug-Life/static/js/main.99f57dd2.js",
     "static/media/logos.png": "/React-Redux-Mug-Life/static/media/logos.8115ee539acad98065eb.png",
     "static/media/banner1.jpg": "/React-Redux-Mug-Life/static/media/banner1.2c75bac131978acf54da.jpg",
     "static/media/banner2.jpg": "/React-Redux-Mug-Life/static/media/banner2.8e5c254af13705569997.jpg",
@@ -17,11 +17,11 @@
     "static/media/slick.ttf": "/React-Redux-Mug-Life/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/React-Redux-Mug-Life/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/React-Redux-Mug-Life/index.html",
-    "main.e3638f55.css.map": "/React-Redux-Mug-Life/static/css/main.e3638f55.css.map",
-    "main.4bcf85aa.js.map": "/React-Redux-Mug-Life/static/js/main.4bcf85aa.js.map"
+    "main.ca82cb32.css.map": "/React-Redux-Mug-Life/static/css/main.ca82cb32.css.map",
+    "main.99f57dd2.js.map": "/React-Redux-Mug-Life/static/js/main.99f57dd2.js.map"
   },
   "entrypoints": [
-    "static/css/main.e3638f55.css",
-    "static/js/main.4bcf85aa.js"
+    "static/css/main.ca82cb32.css",
+    "static/js/main.99f57dd2.js"
   ]
 }
