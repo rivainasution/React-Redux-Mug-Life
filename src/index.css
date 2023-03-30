@@ -239,3 +239,8 @@ code {
   padding: 0px;
   margin: 0px;
 }
+
+.pagination .page-item.active .page-link {
+  background-color: var(--primary);
+  border-color: var(--primary);
+}

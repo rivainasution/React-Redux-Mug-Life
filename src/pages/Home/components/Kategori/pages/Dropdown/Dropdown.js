@@ -1,10 +1,19 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React, { useState } from 'react'
-import { Dropdown } from 'react-bootstrap';
-import { Link } from 'react-router-dom';
+import { Button, Dropdown } from 'react-bootstrap';
+import { Link, NavLink } from 'react-router-dom';
 
 function Dropdowns({icons, values, item}) {
     const [showDropdown, setShowDropdown] = useState(false);
+
+    const dropdownHandle = (link) => {
+        return console.log(link)
+    }
+
+    const navigateTo = (link) => {
+        window.location.href = link;
+    }
+      
 
     return (
         <Dropdown
@@ -23,10 +32,13 @@ function Dropdowns({icons, values, item}) {
                 <FontAwesomeIcon icon={icons} size='2x' className='p-2 f-kategori' />
                 <h3 className='f-heading5 f-kategori-text text-center'>{values}</h3>
             </Dropdown.Toggle>
+
             <Dropdown.Menu show={showDropdown}>
                 {item.map(menu=>(
                     <Dropdown.Item key={menu.id}>
-                        <Link to={menu.link} className='f-dropdown'>{menu.title}</Link>
+                        <span className='f-dropdown' onClick={() => navigateTo(menu.link)}>
+                            {menu.title}
+                        </span>
                     </Dropdown.Item>
                 ))}
             </Dropdown.Menu>

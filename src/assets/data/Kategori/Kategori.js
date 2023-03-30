@@ -17,11 +17,16 @@ const Category = [
         item: [
             {
                 id: 0,
+                title: 'Tampilkan Semua',
+                link: 'category'
+            },
+            {
+                id: 1,
                 title: 'Hot Coffee',
                 link: 'hot'
             },
             {
-                id: 1,
+                id: 2,
                 title: 'Ice Coffee',
                 link: 'Ice'
             }

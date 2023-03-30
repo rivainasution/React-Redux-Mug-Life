@@ -1,7 +1,7 @@
 import React from 'react'
 import { Accordion } from 'react-bootstrap'
 import { Link } from 'react-router-dom'
-import { Category } from '../../../../assets/data'
+import { Category } from '../../assets/data'
 
 function Sidebar() {
 
@@ -9,7 +9,7 @@ function Sidebar() {
         return menu.map(items=>(
           <ul key={items.id}>
             <li className='f-list'>
-              <Link to={items.link} className='f-heading f-heading6 f-link'>
+              <Link to={`/${items.link}`} className='f-heading f-heading6 f-link'>
                 {items.title}
               </Link>
             </li>
